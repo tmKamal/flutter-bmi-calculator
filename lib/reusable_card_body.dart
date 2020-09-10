@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-const cardBodyTextColor = Color(0xFF8D8E98);
+import 'constants.dart';
 
 class ReusableCardBody extends StatelessWidget {
   final String cardBodyText;
@@ -21,7 +20,7 @@ class ReusableCardBody extends StatelessWidget {
         ),
         Text(
           cardBodyText,
-          style: TextStyle(color: cardBodyTextColor, fontSize: 18.0),
+          style: kCardLabelText,
         )
       ],
     );

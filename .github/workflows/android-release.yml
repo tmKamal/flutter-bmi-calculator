@@ -11,8 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - name: Fetch all history for all tags and branches
-        run: |
-          git fetch --prune --depth=10000
+        run: git fetch --prune --depth=10000
       - name: Install GitVersion
         uses: gittools/actions/gitversion/setup@v0.9.2
         with:
@@ -59,3 +58,4 @@ jobs:
           token: ${{ secrets.BMI_TOKEN }}
           tag: ${{ steps.version.outputs.content }}
           commit: ${{ github.sha }}
+          #end of the file

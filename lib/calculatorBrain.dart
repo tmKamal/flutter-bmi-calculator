@@ -29,7 +29,7 @@ class CalculatorBrain {
     } else if (_bmi >= 18.5) {
       return 'Follow your normal routine!! Don\'t change a single bit of it';
     } else {
-      return 'Eat five to six smaller meals during the day, rather than two or three large meals ';
+      return 'Eat everything you find !! ';
     }
   }
 }

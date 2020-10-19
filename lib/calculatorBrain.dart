@@ -7,7 +7,7 @@ class CalculatorBrain {
 
   CalculatorBrain(this.height, this.weight);
 
-  String CalculateBMI() {
+  String calculateBMI() {
     _bmi = weight / pow(height / 100, 2);
     return _bmi.toStringAsFixed(
         1); //this will convert double to a string with 1 decimal point.

@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class ReusableCard extends StatelessWidget {
   final Color bgColour;
   final Widget cardChild;
-  Function onClickHandler;
+  final Function onClickHandler;
   ReusableCard(
       {@required this.bgColour,
       this.cardChild,

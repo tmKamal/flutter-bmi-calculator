@@ -25,7 +25,7 @@ class CalculatorBrain {
 
   String getInterpretation() {
     if (_bmi >= 25) {
-      return 'You should exercise more!!! Otherwise it will lead to a heart attack';
+      return 'You should exercise more!!! Otherwise it will lead to a heart attack man!';
     } else if (_bmi >= 18.5) {
       return 'Follow your normal routine!! Don\'t change a single bit of it';
     } else {

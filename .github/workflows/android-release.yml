@@ -59,3 +59,4 @@ jobs:
           token: ${{ secrets.BMI_TOKEN }}
           tag: ${{ steps.version.outputs.content }}
           commit: ${{ github.sha }}
+          #end of the file
